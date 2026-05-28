@@ -183,6 +183,7 @@ section + section {
   border-radius: 3px;
   border: 1px solid #cfc4b4;
   background: #fff;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   display: block;
 }
@@ -191,8 +192,15 @@ section + section {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.05rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
   color: #1e1208;
+  height: 3.75rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #cfc4b4;
+  margin-bottom: 0;
 }
 
 .card__desc {
