@@ -176,6 +176,17 @@ section + section {
   box-shadow: 0 4px 16px rgba(62, 40, 20, 0.1);
 }
 
+.card__thumbnail {
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+  border-radius: 3px;
+  border: 1px solid #cfc4b4;
+  background: #fff;
+  margin-bottom: 1rem;
+  display: block;
+}
+
 .card__title {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.05rem;
