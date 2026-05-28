@@ -14,13 +14,13 @@ html {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: #2d2d2d;
-  background: #fafafa;
+  color: #3a2d22;
+  background: #f0ebe1;
   line-height: 1.7;
 }
 
 a {
-  color: #2563eb;
+  color: #4a6c8c;
   text-decoration: none;
 }
 
@@ -37,8 +37,8 @@ a:hover {
   left: 0;
   right: 0;
   z-index: 100;
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
+  background: #faf6ef;
+  border-bottom: 1px solid #cfc4b4;
   height: 56px;
   display: flex;
   align-items: center;
@@ -55,9 +55,10 @@ a:hover {
 }
 
 .nav__brand {
-  font-weight: 600;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
   font-size: 1rem;
-  color: #111;
+  color: #9e3d2a;
 }
 
 .nav__links {
@@ -68,13 +69,13 @@ a:hover {
 
 .nav__links a {
   font-size: 0.9rem;
-  color: #4b5563;
+  color: #6b5347;
   font-weight: 500;
   transition: color 0.15s;
 }
 
 .nav__links a:hover {
-  color: #2563eb;
+  color: #4a6c8c;
   text-decoration: none;
 }
 
@@ -92,7 +93,7 @@ section {
 }
 
 section + section {
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #cfc4b4;
 }
 
 /* ===========================
@@ -101,21 +102,22 @@ section + section {
 .hero {
   padding-top: calc(56px + 5rem);
   padding-bottom: 5rem;
-  background: #ffffff;
+  background: #faf6ef;
   text-align: center;
 }
 
 .hero__name {
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 2.75rem;
   font-weight: 700;
-  letter-spacing: -0.02em;
-  color: #111;
+  letter-spacing: -0.01em;
+  color: #1e1208;
   margin-bottom: 0.75rem;
 }
 
 .hero__tagline {
   font-size: 1.2rem;
-  color: #6b7280;
+  color: #8a7468;
   max-width: 520px;
   margin: 0 auto 1.75rem;
 }
@@ -123,16 +125,16 @@ section + section {
 .hero__cta {
   display: inline-block;
   padding: 0.65rem 1.5rem;
-  background: #2563eb;
-  color: #fff;
-  border-radius: 6px;
+  background: #9e3d2a;
+  color: #faf6ef;
+  border-radius: 4px;
   font-weight: 500;
   font-size: 0.95rem;
   transition: background 0.15s;
 }
 
 .hero__cta:hover {
-  background: #1d4ed8;
+  background: #7d3020;
   text-decoration: none;
 }
 
@@ -140,14 +142,15 @@ section + section {
    About
    =========================== */
 .section__title {
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.25rem;
-  color: #111;
+  color: #1e1208;
 }
 
 .about__body {
-  color: #4b5563;
+  color: #5a4636;
   max-width: 680px;
 }
 
@@ -162,27 +165,28 @@ section + section {
 }
 
 .card {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
+  background: #faf6ef;
+  border: 1px solid #cfc4b4;
+  border-radius: 6px;
   padding: 1.5rem;
   transition: box-shadow 0.2s;
 }
 
 .card:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(62, 40, 20, 0.1);
 }
 
 .card__title {
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.05rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.5rem;
-  color: #111;
+  color: #1e1208;
 }
 
 .card__desc {
   font-size: 0.9rem;
-  color: #6b7280;
+  color: #8a7468;
   margin-bottom: 1rem;
 }
 
@@ -195,23 +199,24 @@ section + section {
 
 .tag {
   font-size: 0.75rem;
-  background: #eff6ff;
-  color: #2563eb;
+  background: #e4ddd2;
+  color: #6b5347;
   padding: 0.2rem 0.55rem;
-  border-radius: 4px;
+  border-radius: 3px;
   font-weight: 500;
 }
 
 .card__link {
   font-size: 0.875rem;
   font-weight: 500;
+  color: #4a6c8c;
 }
 
 /* ===========================
    Contact
    =========================== */
 .contact__body {
-  color: #4b5563;
+  color: #5a4636;
   margin-bottom: 1.25rem;
   max-width: 520px;
 }
@@ -219,6 +224,7 @@ section + section {
 .contact__email {
   font-size: 1.05rem;
   font-weight: 500;
+  color: #4a6c8c;
 }
 
 /* ===========================
@@ -228,8 +234,8 @@ section + section {
   text-align: center;
   padding: 2rem 1.5rem;
   font-size: 0.85rem;
-  color: #9ca3af;
-  border-top: 1px solid #e5e7eb;
+  color: #9c8878;
+  border-top: 1px solid #cfc4b4;
 }
 
 /* ===========================
