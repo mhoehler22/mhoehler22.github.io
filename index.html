@@ -94,13 +94,17 @@
           <h3 class="card__title">Media Metadata Graph</h3>
           <img class="card__thumbnail" src="/assets/img/thumbnail_graph.png" alt="Ego graph visualization showing person connected to media and memory nodes" />
           <p class="card__desc">
-            A graph-based analysis tool that extracts, links, and visualizes metadata
-            relationships across media files. Includes ingestion, graph construction,
-            and query exploration.
+            Builds a directed graph over synthetic personal media data &mdash; people,
+            objects, memories, and media files (307 nodes, 632 edges) &mdash; to explore
+            whether graph structures can surface narrative relationships that flat relational
+            tables obscure. Applies Node2Vec embeddings, link prediction heuristics, t-SNE
+            visualization, and K-Means clustering; a memory similarity retrieval function
+            surfaces thematically related records without explicit labels.
           </p>
           <div class="card__tags">
             <span class="tag">Python</span>
             <span class="tag">NetworkX</span>
+            <span class="tag">Node2Vec</span>
             <span class="tag">Pandas</span>
             <span class="tag">Jupyter Notebook</span>
           </div>
@@ -112,14 +116,20 @@
           <h3 class="card__title">Starship Titanic — Kaggle Classification Challenge</h3>
           <img class="card__thumbnail" src="/assets/img/thumbnail_titanic.png" alt="SHAP feature impact plot for Starship Titanic model" />
           <p class="card__desc">
-            A machine learning classification project predicting passenger survival on
-            the fictional Starship Titanic dataset. Includes data cleaning, feature
-            engineering, model comparison, and evaluation.
+            Binary classification competition predicting which of 8,693 spaceship passengers
+            were transported by a space-time anomaly. Applied domain-logic imputation,
+            group-based feature engineering, and a five-model comparison before tuning
+            CatBoost with Optuna Bayesian optimization. Achieved a public leaderboard score
+            of 0.80523 (rank 517), with SHAP analysis confirming spending habits and cabin
+            deck as the strongest predictors.
           </p>
           <div class="card__tags">
             <span class="tag">Python</span>
             <span class="tag">Pandas</span>
             <span class="tag">Scikit-learn</span>
+            <span class="tag">CatBoost</span>
+            <span class="tag">Optuna</span>
+            <span class="tag">SHAP</span>
             <span class="tag">Jupyter Notebook</span>
           </div>
           <a href="https://github.com/mhoehler22/kaggle-starship-titanic" class="card__link">View Project →</a>
